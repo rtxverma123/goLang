@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var n = []int{12, 56, 76, 98, 19, 13}                                //Dynamic arrays
-	var x = [5]string{"Ankita", "Prerna", "Smarika", "Nitesh", "Sriram"} //Static array
+	var x = [5]string{"An", "Pr", "Sm", "Ni", "Sr"} //Static array
 
 	for i := 0; i < 6; i++ {
 		fmt.Println("The array value is: ", n[i])
